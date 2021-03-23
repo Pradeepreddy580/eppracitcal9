@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name='customers.Customers' table='customers'>
+		<id name='ID' column='ID'/>
+		<property name='FirstName' column='FIRSTNAME'/>
+		<property name='LastName' column='LASTNAME'/>
+		<property name='City' column='CITY'/>
+		<property name='Country' column='COUNTRY'/>
+		<property name='Phone' column='PHONE'/>
+	</class>
+</hibernate-mapping>
